@@ -8,7 +8,7 @@ description: A publicly available website that organizes information about the B
 
 # Enable for live hosting on GitHub Pages
 # This should match the name of your GitHub repository, along with a leading forward slash (/).
-baseurl: /bixal-brand-guide
+baseurl: /brand-guide
 
 ### RECOMMENDED SETTINGS ###
 
