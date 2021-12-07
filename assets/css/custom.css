@@ -1,35 +1,31 @@
+/*Changes link text color*/
 a {
   color: var(--bixal-purple);
   text-decoration: none;
 }
 
+/*Changes link text color on hover*/
 a:hover, a:focus, a:active {
   color: var(--bixal-teal);
-  text-decoration: underline;
 }
 
+/*Changes title color*/
 .usa-logo a {
   color: var(--bixal-navy);
 }
 
+/*Changes color for nav text on hover*/
 .usa-header--extended .usa-nav__primary-item>.usa-current, .usa-header--extended .usa-nav__primary-item>.usa-nav__link:hover {
   color: var(--bixal-navy);
 }
 
+/*Changes color for nav current-state on hover*/
 .usa-header--extended .usa-nav__primary-item>.usa-current::after, .usa-header--extended .usa-nav__primary-item>.usa-nav__link:hover::after {
-  background-color: var(--bixal-orange);
-}
-
-.usa-header--extended .usa-nav__primary-item>.usa-current::after, .usa-header--extended .usa-nav__primary-item>.usa-nav__link:hover::after {
-  background-color: var(--bixal-navy);
+  background-color: var(--bixal-purple);
 }
 
 .usa-nav {
   background-color: white;
-}
-
-.usa-nav__primary>.usa-nav__primary-item>a:hover {
-  color: var(--bixal-navy);
 }
 
 .usa-menu-btn {
