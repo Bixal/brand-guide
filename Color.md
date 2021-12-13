@@ -4,6 +4,7 @@ title: Color
 nav: Color
 permalink: /color/
 pairings: The Bixal palette is dynamic and flexible. There are a series of recommended   configurations of the palette to ensure accessible and eye-catching pairings that most effectively bring the Bixal brand to life. The color combinations below are compliant to AA and AAA contrast requirements for text and background.
+
 ratio: In addition to the color pairing recommendations, there are simple color ratio recommendations. These ratios ensure that the Bixal brand messaging and content can be communicated clearly and create a striking finished look that’s visually appealing. When applying the palette to designs, achieve balance by using primarily one color, with smaller amounts of a complementary color and either the body copy white or black.
 ---
 
