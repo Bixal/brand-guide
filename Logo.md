@@ -53,6 +53,9 @@ The B may be used either as a shape or as a photo mask. This flexibility reinfor
 
 ![]({{ site.url }}/{{site.baseurl}}/assets/img/the-b-size.png){: .margin-y-2}
 
+<!--Is this the correct link?-->
+[Insert bleed guide somewhere here](https://www.figma.com/file/uSdGkDjy2OVLxlhp1NVzM4/Social-Media-Template?node-id=0%3A1){: .usa-button .bg-bixal-purple}
+
 ### Color B and background image
 
 To use the B as a shape, use the color pairing guidelines to choose a color that contrasts with the logotype and headline color.
