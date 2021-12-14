@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>{{ site.title }}</title>
+  <title> {{ site.title }} </title>
   <meta name="description" content="{{ site.description }}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -20,7 +20,36 @@
     <div class="grid-container bixal-font-sans-serif">
       <div class="grid-row grid-gap">
         <div class="grid-col-fill">
-          <div class="usa-prose"> {{ content }} </div>
+          <div class="usa-prose"> {{ page.header }} </div>
+
+          <ul class="usa-card-group">
+          <li class="tablet:grid-col-4 usa-card">
+            <div class="usa-card__container">
+              <header class="usa-card__header">
+                <h2 class="usa-card__heading bixal-font-serif">Proxima Nova typeface</h2>
+              </header>
+              <div class="usa-card__media">
+                <div class="usa-card__img">
+                  <img
+                    src="https://github.com/Bixal/rrt-content/blob/main/_images/proxima%20nova.png?raw=true"
+                    alt="proxima nova typeface"
+                  />
+                </div>
+              </div>
+              <div class="usa-card__body">
+                <p>
+                  Use Proxima Nova for body copy. 
+                </p>
+              </div>
+              <div class="usa-card__footer">
+                <button class="usa-button bg-bixal-purple">Download Proxima Nova</button>
+              </div>
+            </div>
+          </li>
+</ul>
+
+<div class="usa-prose"> {{ content }} </div>
+          
         </div>
       </div>
     </div>
