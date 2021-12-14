@@ -1,0 +1,61 @@
+<!doctype html>
+<html class="no-js" lang="{{site.lang}}">
+
+<head>
+  <meta charset="utf-8">
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uswds/2.12.0/js/uswds-init.min.js" integrity="sha512-Zy/dqU71uCdMWS6VdSqc/+2RjOxbq/ySinrQyLG3wTVWSXtBQpK6/b2Ky6vT2JHuFsNm8yBZMJ8zeMQ/ji2qMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uswds/2.12.0/css/uswds.min.css" integrity="sha512-pB+mNjrbVe3EOCg2eOozwwgUyFg49qm23xXsyHUH1cSYqyvf2Wit8Sv35Rfo2HpIBRV8Z7pPKMjVuXslXewWzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://use.typekit.net/knn2htr.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bixal/brand-css@v2.1/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bixal/brand-css@v2.1/utilities-for-uswds.css" />
+  <link rel="stylesheet" href="{{ site.baseurl}}/assets/css/custom.css" />
+
+<body>
+  {% include extended-header.html %}
+  <main id="main-content">
+    <div class="grid-container bixal-font-sans-serif">
+      <div class="grid-row grid-gap">
+        <div class="grid-col-fill">
+          {{ content }}
+
+          <ul class="usa-card-group">
+            {% for template in page.templates %}
+            <li class="tablet:grid-col-4 usa-card">
+              <div class="usa-card__container">
+                <header class="usa-card__header">
+                  <h2 class="usa-card__heading bixal-font-sans-serif">{{ template.name }}</h2>
+                </header>
+                <div class="usa-card__body bixal-font-sans-serif">
+                  <p>
+                    {{ template.description }}
+                  </p>
+                </div>
+                <div class="usa-card__footer">
+                  <a href="{{ template.source }}" class="usa-button bg-bixal-purple">{{ template.CTA }}</a>
+                </div>
+              </div>
+            </li>
+            {% endfor %}
+            </ul>
+
+        </div>
+      </div>
+    </div>
+    {% include footer.html %}
+  </main>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/uswds/2.12.0/js/uswds.min.js" integrity="sha512-E8cQqs8stInR6gI5P8lC0cnD0ee00C+XM1vYSCBm9Lr6s20CUQhYi6ZcXpBYE3v17EAXOqxqppkJRzFuOy4P1w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', '{{ site.ga }}', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
