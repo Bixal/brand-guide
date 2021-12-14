@@ -5,14 +5,14 @@ nav: Typography
 permalink: /typography/
 ---
 
-# Typography
+<!-- # Typography
 
 Throughout all brand communications, Bixal uses the **Novel Pro typeface family for feature copy**, and the **Proxima Nova typeface family for body copy**. These two typefaces seamlessly adapt as both display and utility fonts with a wide range of weights and faces ideal for various typographic constructs.
 
 These fonts are purchasable through Adobe Fonts:<br>
 {: .margin-bottom-1}
 [Novel](https://fonts.adobe.com/fonts/novel){: .usa-button .bg-bixal-purple hover:bg-primary}
-[Proxima Nova](https://fonts.adobe.com/fonts/proxima-nova){: .usa-button .bg-bixal-purple}
+[Proxima Nova](https://fonts.adobe.com/fonts/proxima-nova){: .usa-button .bg-bixal-purple}-->
 
 <!--Is this something we still want to add? No link, yet-->
 
