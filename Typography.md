@@ -17,9 +17,9 @@ These fonts are purchasable through Adobe Fonts:<br>
 
 <!--Is this something we still want to add? No link, yet-->
 
-For internal use, please fill out the request form below:<br>
-{: .margin-bottom-1}
-[Font request form](#){: .usa-button .bg-bixal-purple}
+## Font Request Form
+
+Need the fonts? For internal use at Bixal, fill out the [font request form](#){: .usa-link .bixal-purple}.
 
 ![]({{ site.url }}/{{site.baseurl}}/assets/img/typography-intro.png){: .margin-y-5}
 
