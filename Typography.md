@@ -3,14 +3,6 @@ layout: typography
 title: Typography
 nav: Typography
 permalink: /typography/
-<style>
-  .usa-button {
-    color:inherit;
-  }
-  .usa-button:hover {
-    color:rgb(107,79,187);
-  }
-</style>
 ---
 
 # Typography
