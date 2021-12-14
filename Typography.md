@@ -5,7 +5,8 @@ nav: Typography
 permalink: /typography/
 ---
 
-<!-- # Typography
+<!-- I moved this section into the HTML so that it could come before my font cards. Not sure how to do that in markdown.
+# Typography
 
 Throughout all brand communications, Bixal uses the **Novel Pro typeface family for feature copy**, and the **Proxima Nova typeface family for body copy**. These two typefaces seamlessly adapt as both display and utility fonts with a wide range of weights and faces ideal for various typographic constructs.
 
