@@ -1,3 +1,9 @@
+h1, h2, h3, h4, h5, h6 {
+
+font-family: var(--bixal-font-serif);
+
+}
+
 /*Changes link text color*/
 a {
   color: var(--bixal-purple);
