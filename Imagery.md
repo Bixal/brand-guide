@@ -5,7 +5,7 @@ nav: Imagery
 permalink: /imagery/
 ---
 
-# Photography Guide
+# How to choose imagery
 
 ## Portraits
 
