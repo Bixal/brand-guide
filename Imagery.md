@@ -18,3 +18,7 @@ Ultimately, Bixal is focused on outcomes. Industry imagery should focus on the r
 ## Thematic photography
 
 Thematic photography should reinforce the transformation that is possible with Bixal as a partner. To communicate the core brand pillars and other abstract content categories, select images that evoke universal meaning. When selecting images that reinforce our focus in federal, choose photos that give a sense of scale and impact. Images that feature a more monochromatic palette can create bold contrast when paired with an opposing brand color in designs.
+
+## Where to find photos?
+
+Include links to photo sites here?
