@@ -17,11 +17,11 @@ These fonts are purchasable through Adobe Fonts:<br>
 
 <!--Is this something we still want to add? No link, yet-->
 
-## Font Request Form
+## How to use Bixal typography
 
-Need the fonts? For internal use at Bixal, fill out the [font request form](#){: .usa-link .bixal-purple}.
+![typography break down](https://github.com/Bixal/rrt-content/blob/main/_images/typography%201.png?raw=true){: .margin-y-2}
 
-![]({{ site.url }}/{{site.baseurl}}/assets/img/typography-intro.png){: .margin-y-5}
+![typography break down](https://github.com/Bixal/rrt-content/blob/main/_images/typography%202.png?raw=true){: .margin-y-2}
 
 <!-- ## Placement of text blocks
 
@@ -31,5 +31,10 @@ To establish text placement, align copy with one of the lower three quadrants of
 
 ## Fallback fonts
 
-**Georgia** should be used in place of Novel Pro if the brand font is not available
-**Helvetica** should be used in place of Proxima Nova
+**Georgia** should be used in place of Novel Pro if the brand font is not available.
+
+**Helvetica** should be used in place of Proxima Nova.
+
+## Font Request Form
+
+Need the fonts? For internal use at Bixal, fill out the [font request form](#){: .usa-link .bixal-purple}.
