@@ -23,13 +23,13 @@ Need the fonts? For internal use at Bixal, fill out the [font request form](#){:
 
 ![]({{ site.url }}/{{site.baseurl}}/assets/img/typography-intro.png){: .margin-y-5}
 
-## Placement of text blocks
+<!-- ## Placement of text blocks
 
 To establish text placement, align copy with one of the lower three quadrants of the vertical page. Use left alignment.
 
-![]({{ site.url }}/{{site.baseurl}}/assets/img/typography-placement.png){: .margin-y-2}
+![]({{ site.url }}/{{site.baseurl}}/assets/img/typography-placement.png){: .margin-y-2} -->
 
 ## Fallback fonts
 
-- **Georgia** should be used in place of Novel Pro if the brand font is not available
-- **Helvetica** should be used in place of Proxima Nova
+**Georgia** should be used in place of Novel Pro if the brand font is not available
+**Helvetica** should be used in place of Proxima Nova
