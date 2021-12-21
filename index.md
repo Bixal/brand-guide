@@ -62,7 +62,6 @@ pillars:
     text: From the top down, we are a diverse organization that embraces different ideas, perspectives, and people. Every single one of us offers a unique background and worldview that presents itself in the quality of our work.
     image: https://www.bixal.com/static/e77e6c305f1b49f48b1ac3e8764d7624/4ef17/pillar-perspective.webp
     alt-text:
-contact: Questions about the brand guide? Contact our brand designer, Karen Roberson at [karen.roberson@bixal.com](mailto:karen.roberson@bixal.com)
 ---
 
 ## Looking forward: Brand guide 2.0

@@ -19,21 +19,34 @@ a:hover, a:focus, a:active {
 
 /*Changes title color*/
 .usa-logo a {
-  color: var(--bixal-navy);
+  color: white;
+}
+
+/*Space between Bixal logo and the nav bar headings*/
+.usa-header--basic .usa-navbar {
+width: 15%;
+}
+
+.usa-header--basic .usa-nav {
+  justify-content: flex-start;
 }
 
 /*Changes color for nav text on hover*/
-.usa-header--extended .usa-nav__primary-item>.usa-current, .usa-header--extended .usa-nav__primary-item>.usa-nav__link:hover {
-  color: var(--bixal-navy);
+.usa-header--basic .usa-nav__primary-item>.usa-current, .usa-header--basic .usa-nav__primary-item>.usa-nav__link:hover {
+  color: white;
 }
 
 /*Changes color for nav current-state on hover*/
-.usa-header--extended .usa-nav__primary-item>.usa-current::after, .usa-header--extended .usa-nav__primary-item>.usa-nav__link:hover::after {
-  background-color: var(--bixal-purple);
+.usa-header--basic .usa-nav__primary-item>.usa-current::after, .usa-header--basic .usa-nav__primary-item>.usa-nav__link:hover::after {
+  background-color: white;
 }
 
 .usa-nav {
-  background-color: white;
+  background-color: var(--bixal-navy);
+}
+
+.usa-nav__primary>.usa-nav__primary-item>a {
+  color: white;
 }
 
 .usa-menu-btn {
