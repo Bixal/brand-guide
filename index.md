@@ -2,23 +2,23 @@
 layout: homepage
 title: Home
 
-[hiding the first option]: <>
-(pillar-img:
-  - image: /assets/img/Pillars_Isolated.png
-    alt-text:
-  - image: /assets/img/Pillars_Isolated2.png
-    alt-text:
-  - image: /assets/img/Pillars_Isolated3.png
-    alt-text:
-  - image: /assets/img/Pillars_Isolated4.png
-    alt-text:
-  - image: /assets/img/Pillars_Isolated5.png
-    alt-text:
-  - image: /assets/img/Pillars_Isolated6.png
-    alt-text:
-  - image: /assets/img/Pillars_Isolated7.png
-    alt-text:
-  - image: /assets/img/Pillars_Isolated8.png)
+#hiding first option
+#pillar-img:
+#  - image: /assets/img/Pillars_Isolated.png
+#    alt-text:
+#  - image: /assets/img/Pillars_Isolated2.png
+#    alt-text:
+#  - image: /assets/img/Pillars_Isolated3.png
+#    alt-text:
+#  - image: /assets/img/Pillars_Isolated4.png
+#    alt-text:
+#  - image: /assets/img/Pillars_Isolated5.png
+#    alt-text:
+#  - image: /assets/img/Pillars_Isolated6.png
+#    alt-text:
+#  - image: /assets/img/Pillars_Isolated7.png
+#    alt-text:
+#  - image: /assets/img/Pillars_Isolated8.png
 
 #second option; need to add alt-text
 pillars:
@@ -66,8 +66,7 @@ contact: Questions about the brand guide? Contact our brand designer, Karen Robe
 ---
 
 ## Looking forward: Brand guide 2.0
-
-{: .bixal-font-serif}
+{: .font-serif-xl}
 
 Within this guide are the key ideas, messages and expressions that define our purpose and tell our story. We’ve distilled our narrative into ideas, themes, soundbites and visuals, and included explanations, definitions and conversation-starters.
 
@@ -77,8 +76,7 @@ Learn them. Interpret them. Express them. Embody them.
 We are determined to leave the world in a better place—and as such, it is imperative that our vision is clear, our messages consistent and our visuals differentiated. This document is the first step.
 
 ## Eight core pillars
-
-{: .bixal-font-serif}
+{: .font-serif-xl}
 
 Bixal’s authority—and how we talk about it—can be distilled down to eight concise themes. They are not required to be presented verbatim, but should be incorporated as talking points in conversations, marketing materials and brand executions.
 
