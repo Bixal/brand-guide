@@ -64,7 +64,7 @@ pillars:
     alt-text:
 ---
 
-## Looking forward: Brand guide 2.0
+## Looking forward
 {: .font-serif-xl}
 
 Within this guide are the key ideas, messages and expressions that define our purpose and tell our story. We’ve distilled our narrative into ideas, themes, soundbites and visuals, and included explanations, definitions and conversation-starters.
