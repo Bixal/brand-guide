@@ -15,14 +15,6 @@ These fonts are purchasable through Adobe Fonts:<br>
 [Novel](https://fonts.adobe.com/fonts/novel){: .usa-button .bg-bixal-purple hover:bg-primary}
 [Proxima Nova](https://fonts.adobe.com/fonts/proxima-nova){: .usa-button .bg-bixal-purple}-->
 
-<!--Is this something we still want to add? No link, yet-->
-
-## How to use Bixal typography
-
-![typography break down](https://github.com/Bixal/rrt-content/blob/main/_images/typography%201.png?raw=true){: .margin-y-2}
-
-![typography break down](https://github.com/Bixal/rrt-content/blob/main/_images/typography%202.png?raw=true){: .margin-y-2}
-
 <!-- ## Placement of text blocks
 
 To establish text placement, align copy with one of the lower three quadrants of the vertical page. Use left alignment.
@@ -35,6 +27,6 @@ To establish text placement, align copy with one of the lower three quadrants of
 
 **Helvetica** should be used in place of Proxima Nova.
 
-## Font Request Form
+## Font request form
 
 Need the fonts? For internal use at Bixal, fill out the [font request form](#){: .usa-link .bixal-purple}.
