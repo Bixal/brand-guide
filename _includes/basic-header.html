@@ -7,37 +7,67 @@
       <div class="usa-logo" id="basic-logo">
         <em class="usa-logo__text bixal-font-serif">
           <a href="{{ site.baseurl }}/" title="Home">
-            {{ site.title }}
+            <img
+              src="https://github.com/Bixal/brand-guide/blob/main/assets/img/Bixal_Logo_Green.png?raw=true"
+              alt="bixal logo in green"
+              class="margin-right-4"
+            />
           </a>
         </em>
       </div>
       <button class="usa-menu-btn">Menu</button>
     </div>
     <nav aria-label="Primary navigation" class="usa-nav bixal-font-sans-serif">
-    <div class="usa-nav__inner"><button class="usa-nav__close"><img src="https://cdnjs.cloudflare.com/ajax/libs/uswds/2.11.1/img/usa-icons/close.svg" role="img" alt="close"></button>
-      <ul class="usa-nav__primary usa-accordion">
-        {% for item in site.data.nav %}
-        {% if item.subnav %}
-        <li class="usa-nav__primary-item">
-          <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="{{ item.title | slugify }}"><span>{{ item.title }}</span></button>
-          <ul id="{{ item.title | slugify }}" class="usa-nav__submenu">
-            {% for entry in item.subnav %}
-            <li class="usa-nav__submenu-item">
-              <a href="{{ entry.url }}">{{ entry.title }}</a>
-            </li>
-            {% endfor %}
-          </ul>
-        </li>
-        {% else %}
-        <li class="usa-nav__primary-item">
-            <a href="{{ site.baseurl }}{{ item.url }}" class="font-sans-md bixal-font-sans-serif usa-nav__link{% if item.title == page.nav %} usa-current{% endif %}">
+      <div class="usa-nav__inner">
+        <button class="usa-nav__close">
+          <img
+            src="https://cdnjs.cloudflare.com/ajax/libs/uswds/2.11.1/img/usa-icons/close.svg"
+            role="img"
+            alt="close"
+          />
+        </button>
+        <ul class="usa-nav__primary usa-accordion">
+          {% for item in site.data.nav %} {% if item.subnav %}
+          <li class="usa-nav__primary-item">
+            <button
+              class="usa-accordion__button usa-nav__link"
+              aria-expanded="false"
+              aria-controls="{{ item.title | slugify }}"
+            >
+              <span>{{ item.title }}</span>
+            </button>
+            <ul id="{{ item.title | slugify }}" class="usa-nav__submenu">
+              {% for entry in item.subnav %}
+              <li class="usa-nav__submenu-item">
+                <a href="{{ entry.url }}">{{ entry.title }}</a>
+              </li>
+              {% endfor %}
+            </ul>
+          </li>
+          {% else %}
+          <li class="usa-nav__primary-item">
+            <a
+              href="{{ site.baseurl }}{{ item.url }}"
+              class="
+                font-sans-md
+                bixal-font-sans-serif
+                usa-nav__link{%
+                if
+                item.title
+                ==
+                page.nav
+                %}
+                usa-current{%
+                endif
+                %}
+              "
+            >
               <span>{{ item.title }}</span>
             </a>
-        </li>
-        {% endif %}
-        {% endfor %}
-      </ul>
-      <!-- <div class="usa-nav__secondary">
+          </li>
+          {% endif %} {% endfor %}
+        </ul>
+        <!-- <div class="usa-nav__secondary">
         <ul class="usa-nav__secondary-links">
           <li class="usa-nav__secondary-item">
             <a href="javascript:void(0);">Translate</a>
@@ -55,7 +85,7 @@
           <button class="usa-button" type="submit"><span class="usa-sr-only">Search</span></button>
         </form>
       </div> -->
-    </div>
-  </nav>
+      </div>
+    </nav>
   </div>
 </header>
