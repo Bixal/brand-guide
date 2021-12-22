@@ -53,6 +53,11 @@ width: 15%;
   background-color: var(--bixal-navy);
 }
 
+/*Changes background color for buttons*/
+.usa-button:hover {
+  background-color: var(--bixal-teal);
+}
+
 .scroll a {
   position: absolute;
   bottom: 5px;
