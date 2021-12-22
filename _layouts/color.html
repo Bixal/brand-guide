@@ -21,8 +21,8 @@
       <div class="grid-row grid-gap">
         <div class="grid-col-fill">
        
- <div class="bixal-font-sans-serif grid-col-10">
-          <h1 class="font-alt-3xl">The Color Palette</h1>
+ <div class="grid-col-10">
+          <h1 class="bixal-font-serif font-alt-3xl">The Color Palette</h1>
           <p class="font-body-lg">Color is a powerful brand signal. So, much like us, our palette is energetic, strong and defined. A series of grouped hues integrates into one cohesive palette. The brand achieves more range through pairings from the light palette, the medium palette, the dark palette and the core body text palette.</p>
           <a class="usa-button bg-bixal-purple" href="https://shared-assets.adobe.com/link/0b60fc60-a474-4b51-40e8-1d5e1b0af038">Download color palette</a>
  </div>
@@ -256,9 +256,13 @@
 
 <h2 class="font-alt-xl margin-top-6">Color Pairings and Accessibility</h2>
 
-<div class="usa-prose">
-<p class="font-body-md"> {{page.pairings}} </p>
+<div class="grid-col-8">
+<p class="font-body-md bixal-font-san-serif"> {{page.pairings}} </p>
 </div>
+
+<!--other option for p text, but it won't take on bixal fonts. maybe need to add prose component to CSS-->
+<p class="usa-intro bixal-font-san-serif"> {{page.pairings}} </p>
+
 
 <div class="display-flex margin-top-2 margin-bottom-5">
 <img
