@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: imagery
 title: Imagery
 nav: Imagery
 permalink: /imagery/
