@@ -13,9 +13,13 @@ a:hover, a:focus, a:active {
   color: var(--bixal-teal);
 }
 
-.title-heading {
-  font-size: 96px;
-} 
+@media only screen and (min-width: 992px) {
+  .title-heading {font-size: 96px;}
+}
+
+@media only screen and (max-width: 768px) {
+  .title-heading {font-size: 46px;}
+}
 
 /*Changes title color*/
 .usa-logo a {

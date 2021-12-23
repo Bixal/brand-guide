@@ -63,22 +63,3 @@ pillars:
     image: https://www.bixal.com/static/e77e6c305f1b49f48b1ac3e8764d7624/4ef17/pillar-perspective.webp
     alt-text:
 ---
-
-## Looking forward
-
-{: .font-serif-xl}
-
-Within this guide are the key ideas, messages and expressions that define our purpose and tell our story. We’ve distilled our narrative into ideas, themes, soundbites and visuals, and included explanations, definitions and conversation-starters.
-
-Learn them. Interpret them. Express them. Embody them.
-{: .text-bold}
-
-We are determined to leave the world in a better place—and as such, it is imperative that our vision is clear, our messages consistent and our visuals differentiated. This document is the first step.
-
-## Eight core pillars
-
-{: .font-serif-xl}
-
-Bixal’s authority—and how we talk about it—can be distilled down to eight concise themes. They are not required to be presented verbatim, but should be incorporated as talking points in conversations, marketing materials and brand executions.
-
-We live these messages and their richer meaning in our work each day, and we take them home with us when we leave.
