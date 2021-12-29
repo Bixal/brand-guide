@@ -22,12 +22,30 @@ a:hover, a:focus, a:active {
 }
 
 @media only screen and (max-width: 600px) {
-  .title-heading {font-size: 56px;}
+  .title-heading {font-size: 48px;}
 }
 
 @media screen and (max-width: 768px) {
   /*Hide content on mobile and tablet*/
  .image-hide {display: none;}
+}
+
+@media (min-width: 64em) {
+.usa-header+.usa-section, .usa-header+main {
+    border-top: none;
+ }
+}
+
+@media (max-width: 63.99em) {
+.usa-navbar {
+    border-bottom: none;
+ }
+}
+
+@media (max-width: 63.99em) {
+.usa-nav__primary a:not(.usa-button):not(.usa-current) {
+    color: white;
+ }
 }
 
 /*Changes title color*/
