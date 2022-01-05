@@ -17,8 +17,6 @@
 <body>
   {% include basic-header.html %}
   <main id="main-content">
-
-<!--Note: comparing to the bixal.com header-->
     <section id="scroll-behavior" class="bg-bixal-navy scroll usa-section height-viewport">
       <div class="grid-container bixal-font-serif display-flex flex-row margin-top-5">
         <div class="image-hide flex-align-self-center tablet:grid-col-4">
@@ -31,29 +29,26 @@
         <a href="#content-body"><span></span>Learn more about Bixal</a>
       </div>
     </section>
+
     <div id="content-body" class="grid-container"> 
-      <div class="grid-col-fill margin-y-5">
-       
-        <div class="text-bixal-navy margin-y-5">
-          <h2 class="font-alt-xl bixal-font-serif padding-top-4">Looking forward</h2>
+      <div class="grid-col-fill">
+        <div class="margin-y-5 text-bixal-navy">
+          <h2 class="bixal-font-serif font-body-2xl padding-top-6">Looking forward</h2>
           <div class="grid-row grid-gap">
-          <p class="grid-col-6 line-height-sans-4 bixal-font-sans-serif desktop:font-body-lg tablet:font-body-md">Within this guide are the key ideas, messages and expressions that define our purpose and tell our story. We’ve distilled our narrative into ideas, themes, soundbites and visuals, and included explanations, definitions and conversation-starters.</p>
-          <p class="grid-col-6 line-height-sans-4 bixal-font-sans-serif desktop:font-body-lg tablet:font-body-md">We are determined to leave the world in a better place—and as such, it is imperative that our vision is clear, our messages consistent and our visuals differentiated. This document is the first step.</p>
+          <p class="grid-col-6 bixal-font-sans-serif font-body-md line-height-sans-4">Within this guide are the key ideas, messages and expressions that define our purpose and tell our story. We’ve distilled our narrative into ideas, themes, soundbites and visuals, and included explanations, definitions and conversation-starters.</p>
+          <p class="grid-col-6 bixal-font-sans-serif font-body-md line-height-sans-4">We are determined to leave the world in a better place—and as such, it is imperative that our vision is clear, our messages consistent and our visuals differentiated. This document is the first step.</p>
           </div>
          <!-- <div class="display-flex flex-column">
           <p class="flex-align-self-center text-bixal-purple line-height-sans-4 bixal-font-sans-serif desktop:font-body-lg tablet:font-body-md"><b>Learn them. Interpret them. Express them. Embody them.</b></p> 
           </div> -->
         </div>
-      
 
-        <div class="margin-top-5">
-          <h2 class="text-bixal-navy font-alt-xl bixal-font-serif padding-top-4">Eight core pillars</h2>
-          
+        <div class="margin-y-5 text-bixal-navy">
+          <h2 class="bixal-font-serif font-body-2xl">Eight core pillars</h2>
           <div class="grid-row grid-gap">
-            <p class="grid-col-10 text-bixal-navy line-height-sans-4 bixal-font-sans-serif desktop:font-body-lg tablet:font-body-md">Bixal’s authority—and how we talk about it—can be distilled down to eight concise themes. They are not required to be presented verbatim, but should be incorporated as talking points in conversations, marketing materials and brand executions. We live these messages and their richer meaning in our work each day, and we take them home with us when we leave.</p>
+            <p class="bixal-font-sans-serif font-body-md line-height-sans-4">Bixal’s authority—and how we talk about it—can be distilled down to eight concise themes. They are not required to be presented verbatim, but should be incorporated as talking points in conversations, marketing materials and brand executions. We live these messages and their richer meaning in our work each day, and we take them home with us when we leave.</p>
           </div>
-          </div>
-
+        </div>
       </div>
 
 <!-- pillars w/ image format-->
@@ -71,14 +66,14 @@
           <li class="usa-card tablet:grid-col-6">
             <div class="usa-card__container">
             <header class="usa-card__header">
-              <h3 class="usa-card__heading margin-bottom-1 text-bixal-purple bixal-font-serif">{{ info.number }}</h3>
+              <h3 class="usa-card__heading margin-bottom-1 bixal-font-serif text-bixal-purple text-bold">{{ info.number }}</h3>
               <h3 class="usa-card__heading bixal-font-serif">{{ info.title }}</h3>
             </header>
               <div class="usa-card__media">
                 <div class="usa-card__img">
                   <img
                     src="{{ info.image }}"
-                    alt="info.alt-text"
+                    alt="{{ info.alt-text }}"
                   />
                 </div>
               </div>
