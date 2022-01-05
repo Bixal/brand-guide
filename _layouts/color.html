@@ -17,284 +17,185 @@
 <body>
   {% include basic-header.html %}
   <main id="main-content">
-    <div class="grid-container">
+    <div class="grid-container margin-y-5">
       <div class="grid-row grid-gap">
         <div class="grid-col-fill">
 
- <div class="grid-col-10">
-          <h1 class="bixal-font-serif font-alt-2xl">The Color Palette</h1>
-          <p class="bixal-font-sans-serif desktop:font-body-lg tablet: font-body-small line-height-sans-4">Color is a powerful brand signal. So, much like us, our palette is energetic, strong and defined. A series of grouped hues integrates into one cohesive palette. The brand achieves more range through pairings from the light palette, the medium palette, the dark palette and the core body text palette.</p>
-          <a class="usa-button bg-bixal-purple" href="https://shared-assets.adobe.com/link/0b60fc60-a474-4b51-40e8-1d5e1b0af038">Download color palette</a>
- </div>
+          <div class="tablet:grid-col-10">
+            <h1 class="bixal-font-serif font-body-3xl">Color</h1>
+            <p class="bixal-font-sans-serif font-body-md line-height-sans-4">Color is a powerful brand signal. So, much like us, our palette is energetic, strong and defined. A series of grouped hues integrates into one cohesive palette. The brand achieves more range through pairings from the light palette, the medium palette, the dark palette and the core body text palette.</p>
+            <a class="usa-button bg-bixal-purple margin-top-2 margin-bottom-10" href="https://shared-assets.adobe.com/link/0b60fc60-a474-4b51-40e8-1d5e1b0af038">Download color palette</a>
+          </div>
 
 
-    <!--Color Palette cards-->
-    <ul class="usa-card-group margin-top-5">  
-    <li class="tablet:grid-col-4 usa-card">
-            <div class="usa-card__container">
-              <header class="usa-card__header">
-                <h2 class="usa-card__heading">The Dark Palette</h2>
-              </header>
-              <div class="usa-card__media">
-                <div class="usa-card__img">
-                  <img
-                    src="https://github.com/Bixal/brand-guide/blob/main/assets/img/Dark-Palette.png?raw=true"
-                    alt="Dark palette colors"
-                  />
+          <!--Color Palette cards-->
+          <div>
+            <ul class="usa-card-group">
+            {% for info in page.color-palette %}
+              <li class="tablet:grid-col-4 usa-card">
+                <div class="usa-card__container">
+                  <header class="usa-card__header">
+                    <h2 class="usa-card__heading bixal-font-serif">{{ info.heading }}</h2>
+                  </header>
+                  <div class="usa-card__media">
+                    <div class="usa-card__img">
+                      <img
+                        src="{{ info.image-source }}"
+                        alt="{{ info.alt-text }}"
+                      />
+                    </div>
+                  </div>
+                  <div class="usa-card__body bixal-font-sans-serif">
+                    <p>
+                      {{ info.body }}
+                    </p>
+                  </div>
                 </div>
-              </div>
-              <div class="usa-card__body">
-                <p>
-                  The dark palette amplifies the maturity and confidence of the Bixal brand. The dark palette should be paired with either light or medium hues, and should be offset with white body text.
-                </p>
-              </div>
-            </div>
-          </li>
-
-          <li class="tablet:grid-col-4 usa-card">
-            <div class="usa-card__container">
-              <header class="usa-card__header">
-                <h2 class="usa-card__heading">The Medium Palette</h2>
-              </header>
-              <div class="usa-card__media">
-                <div class="usa-card__img">
-                  <img
-                    src="https://github.com/Bixal/brand-guide/blob/main/assets/img/Medium-Palette.png?raw=true"
-                    alt="Medium palette colors"
-                  />
-                </div>
-              </div>
-              <div class="usa-card__body">
-                <p>
-                  The medium palette includes a few of the most striking tones in the overall color library. The medium palette may be paired with either light or dark palette hues, and should be offset with white <br> body text.
-                </p>
-              </div>
-            </div>
-          </li>
-
-          <li class="tablet:grid-col-4 usa-card">
-            <div class="usa-card__container">
-              <header class="usa-card__header">
-                <h2 class="usa-card__heading">The Light Palette</h2>
-              </header>
-              <div class="usa-card__media">
-                <div class="usa-card__img">
-                  <img
-                    src="https://github.com/Bixal/brand-guide/blob/main/assets/img/Light-Palette.png?raw=true"
-                    alt="Light palette colors"
-                  />
-                </div>
-              </div>
-              <div class="usa-card__body">
-                <p>
-                  The light palette brings a sense of approachability and delight to the overall color library. The light palette should be paired with the dark palette for contrast, and should be matched to black body text.
-                </p>
-              </div>
-            </div>
-          </li>
-</ul>
-          <!-- Color boxes -->
-    <div class="display-flex flex-column flex-align-center">   
-            <ul class="grid-row flex-wrap">
-                  <div class="grid-col grid-col-4 width-card-lg height-15  bg-bixal-orange padding-2 margin-2">
-                    Bixal Orange 
-                    <br>
-                    <b>hex:</b> #FDA305
-                    <br>
-                    <b>PMS coated:</b> 137 C
-                    <br>
-                    <b>PMS uncoated:</b> 123 U
-                  </div>
-                  <div class="grid-col grid-col-4 width-card-lg height-15  bg-bixal-green padding-2 margin-2">Bixal Green
-                    <br>
-                    <b>hex:</b> #DEEC1E
-                    <br>
-                    <b>PMS coated:</b> 396 C
-                    <br>
-                    <b>PMS uncoated:</b> 396 U
-                  </div>
-                  <div class="grid-col grid-col-4 width-card-lg height-15  bg-bixal-light-blue padding-2 margin-2">Bixal Light Blue
-                    <br>
-                    <b>hex:</b> #BEE9F6
-                    <br>
-                    <b>PMS coated:</b> 7457 C
-                    <br>
-                    <b>PMS uncoated:</b> 7457 U
-                  </div>
-                  <div class="grid-col grid-col-4 width-card-lg height-15  bg-bixal-teal padding-2 margin-2">Bixal Teal
-                    <br>
-                    <b>hex:</b> #06C5BC
-                    <br>
-                    <b>PMS coated:</b> 3262 C
-                    <br>
-                    <b>PMS uncoated:</b> 3262 U
-                  </div>
-                  <div class="grid-col grid-col-4 width-card-lg height-15  bg-bixal-red padding-2 margin-2">Bixal Red
-                    <br>
-                    <b>hex:</b> #E02F00
-                    <br>
-                    <b>PMS coated:</b> 485 C
-                    <br>
-                    <b>PMS uncoated:</b> 2347 U
-                  </div>
-                  <div class="grid-col grid-col-4 width-card-lg height-15  bg-bixal-maroon padding-2 text-white margin-2">Bixal Maroon
-                    <br>
-                    <b>hex:</b> #55052A
-                    <br>
-                    <b>PMS coated:</b> 7421 C
-                    <br>
-                    <b>PMS uncoated:</b> 7421 U
-                  </div>
-                  <div class="grid-col grid-col-4 width-card-lg height-15  bg-bixal-purple padding-2 text-white margin-2">Bixal Purple
-                    <br>
-                    <b>hex:</b> #7D0096
-                    <br>
-                    <b>PMS coated:</b> 2602 C
-                    <br>
-                    <b>PMS uncoated:</b> 2592 U
-                  </div>
-                  <div class="grid-col grid-col-4 width-card-lg height-15  bg-bixal-navy padding-2 text-white margin-2">Bixal Navy
-                    <br>
-                    <b>hex:</b> #172D6A
-                    <br>
-                    <b>PMS coated:</b> 294 C
-                    <br>
-                    <b>PMS uncoated:</b> 280 U
-                  </div>
+              </li>
+              {% endfor %}
             </ul>
-      </div> 
+          </div>
 
+          <!-- Color boxes -->
+          <div class="grid-row grid-gap margin-y-10">
+          {% for info in page.color-boxes %}
+            <div class="tablet:grid-col-4 margin-bottom-4">
+              {% if info.text-white == true %}
+                <div class="display-flex flex-column bg-bixal-{{ info.background-color }} padding-3 text-white">
+                  <h3 class="bixal-font-serif flex-align-self-center">{{ info.heading }}</h3>
+                  <p class="bixal-font-sans-serif flex-align-self-center">
+                    <b>hex:</b> #{{ info.hex }}
+                    <br>
+                    <b>PMS coated:</b> {{ info.pms-coated }}
+                    <br>
+                    <b>PMS uncoated:</b> {{ info.pms-uncoated }}
+                  </p>
+                </div>
+              {% else %} 
+                <div class="display-flex flex-column bg-bixal-{{ info.background-color }} padding-3">
+                  <h3 class="bixal-font-serif flex-align-self-center">{{ info.heading }}</h3>
+                  <p class="bixal-font-sans-serif flex-align-self-center">
+                    <b>hex:</b> #{{ info.hex }}
+                    <br>
+                    <b>PMS coated:</b> {{ info.pms-coated }}
+                    <br>
+                    <b>PMS uncoated:</b> {{ info.pms-uncoated }}
+                  </p>
+                </div>
+              {% endif %}
+            </div>
+          {% endfor %}
+          </div>
+          
+          <div class="tablet:grid-col-10">
+            <h2 class="bixal-font-serif font-body-2xl">Color pairings and accessibility</h2>
+            <p class="bixal-font-sans-serif font-body-md line-height-sans-4">The Bixal palette is dynamic and flexible. There are a series of recommended configurations of the palette to ensure accessible and eye-catching pairings that most effectively bring the Bixal brand to life. The color combinations below are compliant to AA and AAA contrast requirements for text and background.</p>
+          </div>
 
-      <!-- another take on color boxes -->
-     <!-- <div class="grid-container"> -->
-        <div class="grid-fill">
-          <ul class="grid-row">
-              <div class="grid-col-fill grid-col-3 height-15  bg-bixal-orange padding-3 margin-2">
-                Bixal Orange 
-                <br>
-                <b>hex:</b> #FDA305
-                <br>
-                <b>PMS coated:</b> 137 C
-                <br>
-                <b>PMS uncoated:</b> 123 U
+          <div class="margin-top-6 margin-bottom-10">
+            <ul class="usa-card-group">
+            {% for info in page.color-pairing %}  
+              <li class="tablet:grid-col-3 usa-card">
+                <div class="usa-card__container">
+                  <div class="usa-card__media">
+                    <div class="usa-card__img height-15 display-flex flex-column" style="background-color: #{{ info.color-code }};">
+                      <p class="flex-align-self-center bixal-font-sans-serif font-body-3xl text-bold text-bixal-{{ info.text-color }} margin-y-2">Aa</p>
+                    </div>
+                  </div>
+                  <div class="usa-card__body bixal-font-sans-serif">
+                    <p>
+                      <b>text</b>: {{ info.text-color }}
+                      <br>
+                      <b>background</b>: {{ info.background-color }}
+                    </p>
+                  </div>
+                </div>
+              </li>
+            {% endfor %}
+            </ul>
+          </div>
+
+          <div class="tablet:grid-col-10">
+            <h3 class="bixal-font-serif font-body-xl">Color pairings for bold or large text only</h3>
+          </div>
+          <div class="margin-top-6 margin-bottom-10">
+            <ul class="usa-card-group">
+              <li class="tablet:grid-col-3 usa-card">
+                <div class="usa-card__container">
+                  <div class="usa-card__media">
+                    <div class="usa-card__img height-15 display-flex flex-column" style="background-color: #7D0096;">
+                      <p class="flex-align-self-center bixal-font-sans-serif font-body-3xl text-bold text-white margin-y-2">Aa</p>
+                    </div>
+                  </div>
+                  <div class="usa-card__body bixal-font-sans-serif">
+                    <p>
+                      <b>text</b>: white
+                      <br>
+                      <b>background</b>: purple 
+                    </p>
+                  </div>
+                </div>
+              </li>
+            {% for info in page.color-pairing-bold %}  
+              <li class="tablet:grid-col-3 usa-card">
+                <div class="usa-card__container">
+                  <div class="usa-card__media">
+                    <div class="usa-card__img height-15 display-flex flex-column" style="background-color: #{{ info.color-code }};">
+                      <p class="flex-align-self-center bixal-font-sans-serif font-body-3xl text-bold text-bixal-{{ info.text-color }} margin-y-2">Aa</p>
+                    </div>
+                  </div>
+                  <div class="usa-card__body bixal-font-sans-serif">
+                    <p>
+                      <b>text</b>: {{ info.text-color }}
+                      <br>
+                      <b>background</b>: {{ info.background-color }}
+                    </p>
+                  </div>
+                </div>
+              </li>
+            {% endfor %}
+            </ul>
+          </div>
+
+          <div class="tablet:grid-col-10">
+            <h3 class="bixal-font-serif font-body-xl">Color no-go's</h3>
+          </div>
+          <div class="margin-top-6 margin-bottom-10">
+            <ul class="usa-card-group">
+            {% for info in page.color-pairing-no-go %}  
+              <li class="tablet:grid-col-3 usa-card">
+                <div class="usa-card__container">
+                  <div class="usa-card__media">
+                    <div class="usa-card__img height-15 display-flex flex-column" style="background-color: #{{ info.color-code }};">
+                      <p class="flex-align-self-center bixal-font-sans-serif font-body-3xl text-bold text-bixal-{{ info.text-color }} margin-y-2">Aa</p>
+                    </div>
+                  </div>
+                  <div class="usa-card__body bixal-font-sans-serif">
+                    <p>
+                      <b>text</b>: {{ info.text-color }}
+                      <br>
+                      <b>background</b>: {{ info.background-color }}
+                    </p>
+                  </div>
+                </div>
+              </li>
+            {% endfor %}
+            </ul>
+          </div>
+
+          <div class="tablet:grid-col-10">
+            <h2 class="bixal-font-serif font-body-2xl">Primary, secondary and tetriary colors</h2>
+              <p class="bixal-font-sans-serif font-body-md line-height-sans-4">{{ page.ratio }}</p>
+              <div class="tablet:grid-col-8 margin-y-4"> 
+                <p class="bixal-font-sans-serif font-body-md line-height-sans-4"> <b class="text-bixal-purple">Primary color:</b> This will be the header text and the monogram when the monogram is being used and should match the secondary color according to the accessibility guide. </p>
+                <p class="bixal-font-sans-serif font-body-md line-height-sans-4"><b class="text-bixal-purple">Secondary color:</b> This will be the background and should match the primary color according to the accessibility guide. </p>
+                <p class="bixal-font-sans-serif font-body-md line-height-sans-4"><b class="text-bixal-purple">Tertiary Color:</b> This can be black or white only and can be for used for additional text or small details. Such as disclaimers, fine print, quote credits etc.</p>
               </div>
-              <div class="grid-col-3 height-15  bg-bixal-green padding-3 margin-2">Bixal Green
-                <br>
-                <b>hex:</b> #DEEC1E
-                <br>
-                <b>PMS coated:</b> 396 C
-                <br>
-                <b>PMS uncoated:</b> 396 U
-              </div>
-              <div class="grid-col-3 height-15  bg-bixal-light-blue padding-3 margin-2">Bixal Light Blue
-                <br>
-                <b>hex:</b> #BEE9F6
-                <br>
-                <b>PMS coated:</b> 7457 C
-                <br>
-                <b>PMS uncoated:</b> 7457 U
-              </div>
-              <div class="grid-col-3 height-15  bg-bixal-teal padding-3 margin-2">Bixal Teal
-                <br>
-                <b>hex:</b> #06C5BC
-                <br>
-                <b>PMS coated:</b> 3262 C
-                <br>
-                <b>PMS uncoated:</b> 3262 U
-              </div>
-              <div class="grid-col-3 height-15  bg-bixal-red padding-3 margin-2">Bixal Red
-                <br>
-                <b>hex:</b> #E02F00
-                <br>
-                <b>PMS coated:</b> 485 C
-                <br>
-                <b>PMS uncoated:</b> 2347 U
-              </div>
-              <div class="grid-col-3 height-15  bg-bixal-maroon padding-3 text-white margin-2">Bixal Maroon
-                <br>
-                <b>hex:</b> #55052A
-                <br>
-                <b>PMS coated:</b> 7421 C
-                <br>
-                <b>PMS uncoated:</b> 7421 U
-              </div>
-              <div class="grid-col-3 height-15  bg-bixal-purple padding-3 text-white margin-2">Bixal Purple
-                <br>
-                <b>hex:</b> #7D0096
-                <br>
-                <b>PMS coated:</b> 2602 C
-                <br>
-                <b>PMS uncoated:</b> 2592 U
-              </div>
-              <div class="grid-col-3 height-15  bg-bixal-navy padding-3 text-white margin-2">
-                Bixal Navy
-                <br>
-                <b>hex:</b> #172D6A
-                <br>
-                <b>PMS coated:</b> 294 C
-                <br>
-                <b>PMS uncoated:</b> 280 U
-              </div>
-        </ul>
-        </div>
-<!-- </div> -->
+          </div>
 
-<!--trying grid row on color boxes instead of display table row 
-<div class="grid-container">   
-<ul class="grid-row">
-      <div class="grid-col flex minh-15 bg-bixal-orange padding-2 margin-3 text-bold">Bixal Orange</div>
-      <div class="grid-col flex minh-15 bg-bixal-green padding-2 margin-3 text-bold">Bixal Green</div>
-      <div class="grid-col flex minh-15 bg-bixal-light-blue padding-2 margin-3 text-bold">Bixal Light Blue</div>
-      <div class="grid-col flex minh-15 bg-bixal-teal padding-2 margin-3 text-bold">Bixal Teal</div>
-      <div class="grid-col flex minh-15 bg-bixal-red padding-2 margin-3 text-bold">Bixal Red</div>
-      <div class="grid-col flex minh-15 bg-bixal-maroon padding-2 margin-3 text-bold text-white">Bixal Maroon</div>
-      <div class="grid-col flex minh-15 bg-bixal-purple padding-2 margin-3 text-bold text-white">Bixal Purple</div>
-      <div class="grid-col flex minh-15 bg-bixal-navy padding-2 margin-3 text-bold text-white">Bixal Navy</div>
-</ul>
-</div> -->
-
-
-<h2 class="font-alt-xl bixal-font-serif margin-top-6">Color Pairings and Accessibility</h2>
-
-<div class="grid-col-10">
-<p class="bixal-font-sans-serif desktop:font-body-lg tablet: font-body-small line-height-sans-4"> {{page.pairings}} </p>
-</div>
-
-<div class="display-flex margin-top-2 margin-bottom-5">
-<img
-    src="https://github.com/Bixal/brand-guide/blob/main/assets/img/Color-Pairings-1-(3)%20.png?raw=true"
-      alt="color pairings"
- />
-</div>
-<p class="font-body-lg">Color pairings for bold or large text only:</p>
-<div class="display-flex margin-top-neg-3 margin-bottom-5">
-  <img
-      src="https://github.com/Bixal/brand-guide/blob/main/assets/img/Color-Pairings-2-(3).png?raw=true"
-        alt="color pairings"
-   />
-  </div>
-<p class="font-body-lg">No-go's:</p>
-<div class="display-flex margin-top-neg-3 margin-bottom-5">
-  <img
-      src="https://github.com/Bixal/brand-guide/blob/main/assets/img/Color-Pairings-3-(2).png?raw=true"
-        alt="color pairings"
-   />
-  </div>
-
-
-<h2 class="font-alt-xl bixal-font-serif margin-top-8">Primary, secondary and tetriary colors</h2>
-<section class="usa-prose"> 
-  <p class="font-body-lg bixal-font-sans-serif"> {{page.ratio}} </p> 
-<p class="bixal-font-sans-serif"> <b class="text-bixal-purple">Primary color:</b> This will be the header text and the monogram when the monogram is being used and should match the secondary color according to the accessibility guide. </p>
-<p class="bixal-font-sans-serif"><b class="text-bixal-purple">Secondary color:</b> This will be the background and should match the primary color according to the accessibility guide. </p>
-<p class="bixal-font-sans-serif"><b class="text-bixal-purple">Tertiary Color:</b> This can be black or white only and can be for used for additional text or small details. Such as disclaimers, fine print, quote credits etc.</p>
-</section> 
-<div class="display-flex margin-top-3 margin-bottom-5">
-  <img
-      src="https://github.com/Bixal/brand-guide/blob/main/assets/img/Color-ratio-graphic-2.png?raw=true"
-        alt="primary, secondary, tertiary colors"
-   />
-  </div>
+          <div class="margin-top-6">
+            <img src="https://github.com/Bixal/brand-guide/blob/main/assets/img/Color-ratio-graphic-2.png?raw=true" alt="primary, secondary, tertiary colors">
+          </div>
 
         </div>
       </div>

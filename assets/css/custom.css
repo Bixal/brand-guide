@@ -90,6 +90,10 @@ width: 15%;
   background-color: var(--bixal-teal);
 }
 
+.usa-card .usa-card__img {
+    display: flex;
+}
+
 .scroll a {
   position: absolute;
   bottom: 5px;
