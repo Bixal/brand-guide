@@ -21,7 +21,3 @@ templates:
     CTA: Open Social Post Template
     source: https://www.figma.com/file/uSdGkDjy2OVLxlhp1NVzM4/Social-Media-Template?node-id=54%3A190
 ---
-
-# Templates
-
-Use the templates below to kickstart you Bixal-branded creations.
