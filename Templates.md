@@ -20,4 +20,8 @@ templates:
     description: Contains Instagram, Twitter, and a universal post template created in Figma along with a bleed guide on how to use the monogram. Make sure to duplicate this file to use the templates.
     CTA: Open social post templates
     source: https://www.figma.com/file/uSdGkDjy2OVLxlhp1NVzM4/Social-Media-Template?node-id=54%3A190
+  - name: Sharepoint Brand Library
+    description: A library of brand assets and templates available to Bixalers in Sharepoint.
+    CTA: View Sharepoint library
+    source: https://bixal365.sharepoint.com/:f:/r/Shared%20Documents/Bixal%20Brand%20Library?csf=1&web=1&e=tDG8WJ
 ---
