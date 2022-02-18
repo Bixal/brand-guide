@@ -4,13 +4,36 @@ html {
 
 /*Changes link text color*/
 a {
-  color: var(--bixal-purple);
+  color: var(--bixal-navy);
   text-decoration: none;
 }
 
 /*Changes link text color on hover*/
 a:hover, a:focus, a:active {
-  color: var(--bixal-teal);
+  color: var(--bixal-maroon);
+  text-decoration: underline;
+}
+
+/*Footer text color*/
+.usa-footer__contact-info a {
+    color: #172D6A;
+}
+
+/*Footer hover*/
+.usa-footer__contact-info a:hover {
+    color: #55052A;
+}
+
+/*"Return to top" link color*/
+.usa-alert__text a, .usa-footer__return-to-top a, .usa-link {
+    color: #172D6A !important;
+    text-decoration: none !important;
+}
+
+/*"Return to top" link color hover*/
+.usa-alert__text a, .usa-footer__return-to-top a:hover, .usa-link {
+    color: #55052A !important;
+    text-decoration: underline !important;
 }
 
 @media only screen and (min-width: 768px) {
