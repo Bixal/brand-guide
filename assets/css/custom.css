@@ -27,65 +27,34 @@ a:hover, a:focus, a:active {
 
 /*Footer text color*/
 .usa-footer__contact-info a {
-    color: #172D6A;
+    color: var(--bixal-navy);
 }
 
 /*Footer hover*/
 .usa-footer__contact-info a:hover {
-    color: #7D0096;
+    color: var(--bixal-purple);
 }
 
 /*"Return to top" link color*/
 .usa-alert__text a, .usa-footer__return-to-top a, .usa-link {
-    color: #172D6A !important;
+    color: var(--bixal-navy) !important;
     text-decoration: none !important;
 }
 
 /*"Return to top" link color hover*/
 .usa-alert__text a, .usa-footer__return-to-top a:hover, .usa-link {
-    color: #7D0096 !important;
+    color: var(--bixal-purple) !important;
     text-decoration: underline !important;
-}
-
-@media only screen and (min-width: 768px) {
-  .custom-title-font {font-size: 96px;}
-}
-
-@media only screen and (max-width: 768px) {
-  .custom-title-font {font-size: 56px;}
-}
-
-@media only screen and (max-width: 600px) {
-  .custom-title-font {font-size: 44px;}
-}
-
-@media (min-width: 64em) {
-.usa-header+.usa-section, .usa-header+main {
-    border-top: none;
- }
-}
-
-@media screen and (max-width: 900px) {
-  /*Hide content on mobile and tablet*/
- .image-hide {display: none;}
-}
-
-@media (max-width: 63.99em) {
-.usa-navbar {
-    border-bottom: none;
- }
-}
-
-@media (max-width: 63.99em) {
-.usa-nav__primary a:not(.usa-button):not(.usa-current) {
-    color: white;
- }
 }
 
 /*Space between Bixal logo and the nav bar headings
 .usa-header--basic .usa-navbar {
 width: 15%;
 }*/
+
+.border-bixal {
+  border-color: var(--bixal-orange);
+}
 
 .usa-header--basic .usa-nav {
   justify-content: flex-start;
@@ -122,4 +91,39 @@ width: 15%;
 
 .usa-card .usa-card__img {
     display: flex;
+}
+
+@media only screen and (min-width: 768px) {
+  .custom-title-font {font-size: 96px;}
+}
+
+@media only screen and (max-width: 768px) {
+  .custom-title-font {font-size: 56px;}
+}
+
+@media only screen and (max-width: 600px) {
+  .custom-title-font {font-size: 44px;}
+}
+
+@media (min-width: 64em) {
+.usa-header+.usa-section, .usa-header+main {
+    border-top: none;
+ }
+}
+
+@media screen and (max-width: 900px) {
+  /*Hide content on mobile and tablet*/
+ .image-hide {display: none;}
+}
+
+@media (max-width: 63.99em) {
+.usa-navbar {
+    border-bottom: none;
+ }
+}
+
+@media (max-width: 63.99em) {
+.usa-nav__primary a:not(.usa-button):not(.usa-current) {
+    color: white;
+ }
 }
