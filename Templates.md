@@ -4,6 +4,10 @@ title: Templates
 nav: Templates
 permalink: /templates/
 templates:
+  - name: Adobe asset library
+    description: Adobe library that includes the Bixal logos, monograms, colors and a bleed guide for using the monogram.
+    CTA: View assets in Adobe library
+    source: https://assets.adobe.com/public/0b60fc60-a474-4b51-40e8-1d5e1b0af038
   - name: PowerPoint template
     description: Bixal-branded presentation template in PowerPoint. Download a copy to use for your upcoming presentations.
     CTA: Open PowerPoint template
