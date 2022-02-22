@@ -70,17 +70,34 @@ width: 15%;
   background-color: var(--bixal-teal);
 }
 
+/*Nav background color*/
 .usa-nav {
   background-color: var(--bixal-white);
 }
 
+/*Nav links color*/
 .usa-nav__primary>.usa-nav__primary-item>a {
   color: black;
 }
 
+/*Mobile menu button*/
 .usa-menu-btn {
   background-color: var(--bixal-green);
   color: var(--bixal-navy);
+}
+
+/*Mobile menu button hover color*/
+.usa-menu-btn:hover {
+    background-color: var(--bixal-navy);
+    color: #fff;
+    text-decoration: none;
+}
+
+/*Mobile menu nav link color*/
+@media (max-width: 63.99em) {
+.usa-nav__primary a:not(.usa-button):not(.usa-current) {
+    color: black !important;
+  }
 }
 
 /*Changes background color for buttons*/
