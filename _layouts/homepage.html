@@ -17,50 +17,46 @@
 <body>
   {% include basic-header.html %}
   <main id="main-content">
-    <section id="scroll-behavior" class="scroll bg-bixal-navy padding-top-8 height-viewport">
-      <div class="grid-container">
-        <div class="bixal-font-serif grid-row grid-gap display-flex flex-row">
-          <div class="tablet:grid-col-5 mobile-lg:grid-col-5 flex-align-self-center">
-            <img src="https://github.com/Bixal/brand-guide/blob/main/assets/img/B%20photo%202%20(2).png?raw=true"/>
-          </div>
-          <div class="tablet:grid-col-7 flex-align-self-center">
-              <h1 class="title-heading text-bixal-green">Welcome<br>to the Bixperience</h1>
-              <!-- <h2 class="text-bixal-green">Brand guidelines v2.0</h2> -->
-          </div>
+    <section class="usa-section bg-bixal-light-blue">  
+      <div class="grid-row grid-container display-flex flex-row bixal-font-serif">
+        <div class="tablet:grid-col-7 flex-align-self-center">
+          <h1 class="custom-title-font text-bixal-navy">Welcome<br>to the Bixperience</h1> 
         </div>
+        <div class="tablet:grid-col-5 flex-align-self-center">
+          <img class="image-hide width-mobile-lg padding-left-8 padding-y-3" src="https://github.com/Bixal/brand-guide/blob/main/assets/img/B%20photo%202%20(2).png?raw=true"/>
+        </div>
+        <a href="https://bixal365.sharepoint.com/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=tDG8WJ&cid=a1bf9efa%2D2e0c%2D4921%2Db030%2D44a854d7c379&FolderCTID=0x01200031F810D72D395248BD3D14D48D34F542&id=%2FShared%20Documents%2FBixal%20Brand%20Library&viewid=2b3e52e1%2D3819%2D40e3%2D8afa%2D5ffe18c93e98" class="usa-button bg-bixal-navy">Bixal Brand library</a>
+        <a href="{{ site.baseurl }}/templates/" class="usa-button bg-bixal-navy">Templates</a>
       </div>
-      <a href="#content-body" class="bixal-font-serif"><span></span>Learn more about Bixal</a>
     </section>
 
-    <div id="content-body" class="grid-container"> 
+    <div id="content-body" class="grid-container margin-y-5"> 
       <div class="grid-col-fill">
-        <div class="margin-y-5 text-bixal-navy">
-          <h2 class="bixal-font-serif font-body-2xl padding-top-6">Looking forward</h2>
-          <div class="grid-row grid-gap">
-          <p class="grid-col-6 bixal-font-sans-serif font-body-md line-height-sans-4">Within this guide are the key ideas, messages and expressions that define our purpose and tell our story. We’ve distilled our narrative into ideas, themes, soundbites and visuals, and included explanations, definitions and conversation-starters.</p>
-          <p class="grid-col-6 bixal-font-sans-serif font-body-md line-height-sans-4">We are determined to leave the world in a better place—and as such, it is imperative that our vision is clear, our messages consistent and our visuals differentiated. This document is the first step.</p>
+        <div class="padding-top-1">
+          <div class="padding-bottom-1">
+            <h2 class="bixal-font-serif font-body-2xl">Looking forward
+              <div class="grid-col-3 border-bottom-2px border-bixal-orange padding-bottom-4"></div>
+            </h2>
+            <p class="bixal-font-sans-serif font-body-md line-height-sans-4">Within this guide are the key ideas, messages and expressions that define our purpose and tell our story. We’ve distilled our narrative into ideas, themes, soundbites and visuals, and included explanations, definitions and conversation-starters.</p>
+            <p class="bixal-font-sans-serif font-body-md line-height-sans-4">We are determined to leave the world in a better place—and as such, it is imperative that our vision is clear, our messages consistent and our visuals differentiated. This document is the first step.</p>
           </div>
-         <!-- <div class="display-flex flex-column">
-          <p class="flex-align-self-center text-bixal-purple line-height-sans-4 bixal-font-sans-serif desktop:font-body-lg tablet:font-body-md"><b>Learn them. Interpret them. Express them. Embody them.</b></p> 
-          </div> -->
-        </div>
-
-        <div class="margin-y-5 text-bixal-navy">
-          <h2 class="bixal-font-serif font-body-2xl">Eight core pillars</h2>
-          <div class="grid-row grid-gap">
+          <div class="padding-bottom-1">
+            <h2 class="bixal-font-serif font-body-2xl">Eight core pillars
+              <div class="grid-col-3 border-bottom-2px border-bixal-orange padding-bottom-4"></div>
+            </h2>
             <p class="bixal-font-sans-serif font-body-md line-height-sans-4">Bixal’s authority—and how we talk about it—can be distilled down to eight concise themes. They are not required to be presented verbatim, but should be incorporated as talking points in conversations, marketing materials and brand executions. We live these messages and their richer meaning in our work each day, and we take them home with us when we leave.</p>
           </div>
         </div>
       </div>
 
 <!-- pillars w/ image format-->
-      <div class="grid-row grid-gap-05">
+      <!-- <div class="grid-row grid-gap-05">
           {% for info in page.pillar-img %}
             <div class="tablet:grid-col-3">      
               <img src="{{ site.baseurl }}{{ info.image }}">
             </div>
           {% endfor %}
-      </div>
+      </div> -->
 
 <!-- pillars w/ card format-->
       <ul class="usa-card-group">
